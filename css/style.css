@@ -1,0 +1,82 @@
+body {
+	background-color: #E4E872;
+	background-image: url(../images/bg.jpg); 
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: 'Didact Gothic', sans-serif; 
+	margin: 0;
+}
+
+.main {
+		width: 200px;
+		background-color: rgba(235,217,106,0.6); 
+		margin: 10px auto;
+		text-align: center;
+}
+
+h1 {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 60px;
+	text-transform: uppercase;
+	color: yellow; 
+	text-align: right;
+	margin: 0
+}
+
+/* This is a comment */
+
+h2 {
+	font-family: 'Didact Gothic', sans-serif;
+	font-style: italic;
+	background-color: #9338E8;
+	font-size: 60px;
+	text-transform: uppercase;
+	color: blue;
+	margin: 0;
+}
+
+img {
+	cursor: pointer;
+	width: 50%;
+	display: block; /* This centers the image */
+	margin: 100px auto; 
+ 	border: 60px solid rgba(235,217,106,0.6);
+ 	box-shadow: 0px 0px 50px 10px rgba(235,217,106,0.6);
+	border-bottom-right-radius: 30px;
+}
+
+h3 {	
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 0;
+	cursor: s-resize;
+
+
+}
+.intro{
+	color:blue;} 
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+
+}
+
+a { 
+ 	color: red;
+ 	text-decoration: none;
+
+ }
+a:focus,
+a:hover {
+	text-decoration: underline;
+	color: red;
+	font-size: 30px;
+}
+
+
+
